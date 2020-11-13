@@ -13,14 +13,24 @@ import P10 from '../photos/IMG_0596.jpg'
 export default function Photos () {
 return (
     <div className="photo-album">
-        <h1> photos</h1>
+        <h2> Photos</h2>
+
+ <div className="photo-container">
+     <img src={P6} className="photo" alt ="image" id="shuffleboard"/>
+     <h3> Shuffleboarding for Tucker's 30th birthday, Summer 2018</h3>
+</div>
 
 
 <div className="photo-container">
-     <img src={P1} className="photo" alt ="image" id="fire-island"/>
-     <h3> Fire Island National Seashore, Fall 2020</h3>
+     <img src={P5} className="photo" alt ="image" id="timessquare"/>
+     <h3> Seeing The Office! Off Broadway, Summer 2018</h3>
 </div>
 
+
+<div className="photo-container">
+     <img src={P3} className="photo" alt ="image" id="castlelights"/>
+     <h3> "Beauty and the Beast" Magic Kingdom, Disneyworld, 2018</h3>
+</div>
 
 <div className="photo-container">
      <img src={P2} className="photo" alt ="image" id="bridge"/>
@@ -28,24 +38,8 @@ return (
 </div>
 
 <div className="photo-container">
-     <img src={P3} className="photo" alt ="image" id="castlelights"/>
-     <h3> "Beauty and the Beast" Magic Kingdom, Disneyworld, 2018</h3>
-</div>
-
-
-<div className="photo-container">
      <img src={P4} className="photo" alt ="image" id="talcottmt"/>
      <h3> Talcott Mountain, Simsbury CT, 2019</h3>
-</div>
-
-<div className="photo-container">
-     <img src={P5} className="photo" alt ="image" id="timessquare"/>
-     <h3> Seeing The Office! Off Broadway, Spring 2018</h3>
-</div>
-
-<div className="photo-container">
-     <img src={P6} className="photo" alt ="image" id="shuffleboard"/>
-     <h3> Shuffleboarding for Tucker's 30th birthday, Summer 2018</h3>
 </div>
 
 
@@ -55,14 +49,20 @@ return (
 </div>
 
 <div className="photo-container">
-     <img src={P8} className="photo" alt ="image" id="beach1"/>
-     <h3> On the beach, about 2 weeks before the engagement, Fall 2020</h3>
+     <img src={P1} className="photo" alt ="image" id="fire-island"/>
+     <h3> Fire Island National Seashore, Fall 2020</h3>
 </div>
 
 <div className="photo-container">
      <img src={P9} className="photo" alt ="image" id="pumpkin"/>
      <h3> Pumpkin picking out in Suffolk County, Fall 2020</h3>
 </div>
+
+<div className="photo-container">
+     <img src={P8} className="photo" alt ="image" id="beach1"/>
+     <h3> On the beach, about 2 weeks before the engagement, Fall 2020</h3>
+</div>
+
 
 <div className="photo-container">
      <img src={P10} className="photo" alt ="image" id="auburnhair"/>
