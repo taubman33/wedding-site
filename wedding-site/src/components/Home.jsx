@@ -5,7 +5,7 @@ export default function () {
 return (
     <div className="home">
 
-        <h1> Welcome to our site!</h1>
+        <h2> Welcome to our site!</h2>
 
 
         <div className="photo-container">

@@ -7,11 +7,15 @@ export default function Header (){
 return(
 
     <div className ="Header-container" >
-     <header> 
+        
+     <div className="Header-text">
      <h1> Jeremy and Alyssa's Wedding</h1>   
+     </div>
 
+     <div className="Nav-container">
      <Nav/>
-     </header>  
+     </div>
+
     </div>
     
 )

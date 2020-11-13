@@ -1,12 +1,35 @@
 .App {
   text-align: center;
   background-color:aqua;
+  margin-top: 0;
+  height: 100%;
 }
-img {
+
+
+
+.photo {
   width: 50%;
 }
 
-.Header {
-background-color: rgb(215, 221, 179);
+.Header-container {
+height: 25rem;
+background-image: url("./photos/LB3.jpg");
+background-repeat: no-repeat;
+background-position: center;
+border: 5px solid black;
 }
 
+.Header-text {
+
+}
+
+.Nav {
+  display: flex;
+  flex-direction: inline;
+  justify-content: space-around;
+}
+
+
+h1{
+  font-family: 'Parisienne', cursive;
+}
