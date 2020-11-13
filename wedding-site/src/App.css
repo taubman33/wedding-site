@@ -1,15 +1,14 @@
 .App {
   text-align: center;
-  background-color:#000f89;
+  background-image: linear-gradient(to right, #0E9DEE , #DCF0FC);
   margin-top: 0;
   height: 100%;
 }
 
 
-.Footer {
-  background-color: #EEB10E;
+.footer {
   bottom: 0;
-  padding: 1rem;
+  padding: .5em;
   margin-top: 2rem;
 }
 
@@ -22,21 +21,40 @@
   margin-bottom: 2rem;
 }
 
+.Header-container {
+  margin-top:-4rem;
+  background-image: url("./photos/LB3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 5px solid black;
+  
+  }
 
 .Header {
   margin-top: 3rem;
-}
 
-.Header-container {
-margin-top:-4rem;
-background-image: url("./photos/LB3.jpg");
-background-repeat: no-repeat;
-background-position: center;
 }
 
 
 .Header-text {
 padding-top: 3rem;
+}
+
+.home-text-container{
+  display:flex;
+  flex-direction: inline-block;
+  justify-content: space-around;
+}
+
+.Info {
+  height: 100%;
+}
+
+
+.home-text {
+  width:70%;
+  letter-spacing: 2px;
+  line-height:1.5;
 }
 
 .linkIcon {
@@ -63,11 +81,13 @@ padding-top: 3rem;
 h1{
   font-family: 'Parisienne', cursive;
   font-size: 7rem;
+  font-weight: 300;
   letter-spacing: 1rem;
 }
 
 h2 {
   font-size: 4rem;
+  letter-spacing: .3em;
   color: white;
 }
 
@@ -83,3 +103,37 @@ h4{
   letter-spacing: 1rem;
   color:white;
 }
+
+
+@media only screen and (max-width: 400px) {
+  .App {
+ text-align: center;
+  }
+
+  .Nav {
+    display: flex;
+    flex-direction: block;
+  }
+
+  .photo-album-container {
+    text-align: center;
+  }
+  
+  h1 {
+font-size: 2rem;
+  }
+
+  h2{
+  font-size: 1rem;
+
+  }
+  h3{
+font-size: 1rem;
+  }
+
+  h4{
+    font-size: .7rem;
+    letter-spacing: normal;
+  }
+}
+
