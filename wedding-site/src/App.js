@@ -31,10 +31,6 @@ const routes = [
     component: Info,
   }
 
-
-
-
-
 ]
 
 function App() {
