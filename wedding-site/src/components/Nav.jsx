@@ -18,6 +18,10 @@ export default function Nav () {
                   <Link to= '/registry'><h4> • Registry</h4> </Link>
                   </div>
 
+                  <div className="navbar-link">
+                  <Link to= '/info'><h4> • Information</h4> </Link>
+                  </div>
+
         </div>
     )
 }
