@@ -42,10 +42,6 @@ function App() {
     <div className="App">
       <Header/>
       <Main/>
-
-      <div className="footer">
-      <h4>2020 JT</h4>
-      </div>
     </div>
   );
 }

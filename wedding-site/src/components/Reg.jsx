@@ -23,12 +23,9 @@ return (
   <img src={AZ} className="linkIcon" />
 </a>
 
-<h4> other acceptable gifts for jeremy who doesnt care about plates include anything at all made by the following companies: Moog, Ampeg, Electro Harmonix....</h4>
-
-
-
 
 </div>
+
 
 
 )
