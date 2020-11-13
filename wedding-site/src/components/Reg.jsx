@@ -9,7 +9,7 @@ return (
 
 <div className ="registry">
 
-    <h2> links to our registry!</h2>
+    <h2> Links to our registry!</h2>
 
 <a href="https://www.linkedin.com/in/jeremy-taubman-23736460" target="_blank" alt="LIIcon">
   <img src={CB} className="linkIcon" />
@@ -22,6 +22,9 @@ return (
 <a href="https://www.linkedin.com/in/jeremy-taubman-23736460" target="_blank" alt="LIIcon">
   <img src={AZ} className="linkIcon" />
 </a>
+
+<h4> other acceptable gifts for jeremy who doesnt care about plates include anything at all made by the following companies: Moog, Ampeg, Electro Harmonix....</h4>
+
 
 
 

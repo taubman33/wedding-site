@@ -9,9 +9,15 @@ import P7 from '../photos/photo7.jpg'
 import P8 from '../photos/photo8.jpg'
 import P9 from '../photos/photo9.jpg'
 import P10 from '../photos/IMG_0596.jpg'
+import Ep from '../photos/Epcot1.jpg'
+import LES from '../photos/LES.jpg'
+import WH from '../photos/WH.jpg'
 
 export default function Photos () {
 return (
+
+     <div className="photo-album-container">
+    
     <div className="photo-album">
         <h2> Photos</h2>
 
@@ -28,9 +34,21 @@ return (
 
 
 <div className="photo-container">
-     <img src={P3} className="photo" alt ="image" id="castlelights"/>
-     <h3> "Beauty and the Beast" Magic Kingdom, Disneyworld, 2018</h3>
+     <img src={WH} className="photo" alt ="image" id="castlelights"/>
+     <h3> Right out front of Taylor Swift's Holiday House in Watch Hill, RI, Summer 2018</h3>
 </div>
+
+<div className="photo-container">
+     <img src={P3} className="photo" alt ="image" id="castlelights"/>
+     <h3> "Beauty and the Beast" Magic Kingdom, Disney World, 2018</h3>
+</div>
+
+
+<div className="photo-container">
+     <img src={Ep} className="photo" alt ="image" id="castlelights"/>
+     <h3> At the Japan pavilion at Epcot, 2018</h3>
+</div>
+
 
 <div className="photo-container">
      <img src={P2} className="photo" alt ="image" id="bridge"/>
@@ -39,7 +57,12 @@ return (
 
 <div className="photo-container">
      <img src={P4} className="photo" alt ="image" id="talcottmt"/>
-     <h3> Talcott Mountain, Simsbury CT, 2019</h3>
+     <h3> Talcott Mountain, Simsbury CT, Fall 2018</h3>
+</div>
+
+<div className="photo-container">
+     <img src={LES} className="photo" alt ="image"  id="apples"/>
+     <h3> Out and about on the Lower East Side, Summer 2019</h3>
 </div>
 
 
@@ -70,8 +93,9 @@ return (
 </div>
 
 
-    </div>
+     </div>
 
+    </div>
 
 
 )
