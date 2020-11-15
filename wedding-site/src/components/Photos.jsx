@@ -16,7 +16,8 @@ import WH from '../photos/WH.jpg'
 export default function Photos () {
 return (
 
-     <div className="photo-album-container">
+     <div className="photo-album-container"
+     style={{paddingBottom:"3rem"}}>
     
     <div className="photo-album">
         <h2> Photos</h2>
@@ -46,7 +47,8 @@ return (
 
 <div className="photo-container">
      <img src={Ep} className="photo" alt ="image" id="castlelights"/>
-     <h3> At the Japan pavilion at Epcot, 2018</h3>
+     <h3> At the Japan pavilion at Epcot, 2018.
+     <br/> Jeremy has actually been to the real thing at Miyajima Island, and has quite the story to tell!</h3>
 </div>
 
 

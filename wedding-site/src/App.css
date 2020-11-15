@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   background-image: linear-gradient(to right, #0E9DEE , #DCF0FC);
-  margin-top: 0;
   height: 100%;
+  padding-bottom: 3rem;
 }
 
 
@@ -22,15 +22,18 @@
 }
 
 .Header-container {
-  margin-top:-4rem;
+  margin-top:-3rem;
+  width:100%;
   background-image: url("./photos/LB3.png");
   background-repeat: no-repeat;
   background-position: center;
-  border-bottom: 5px solid black;
+  background-size: cover;
+}
+
   
-  }
 
 .Header {
+  width: 100%;
   margin-top: 3rem;
 
 }
@@ -80,9 +83,9 @@ padding-top: 3rem;
 
 h1{
   font-family: 'Parisienne', cursive;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 300;
-  letter-spacing: 1rem;
+  letter-spacing: .5em;
 }
 
 h2 {
@@ -167,7 +170,7 @@ font-size: 1rem;
   
   h3{
 font-size: 1rem;
-color: black
+color: White
   }
 
   h4{
@@ -175,4 +178,14 @@ color: black
     letter-spacing: normal;
     color: black
   }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .Nav h3 {
+    color: White;
+  }
+
 }
