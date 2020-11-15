@@ -11,6 +11,8 @@ return (
 
     <h2> Links to our registry!</h2>
 
+    <h3> Please note that dates were required for creating the registries, the date given is not our official wedding date!</h3>
+
 
 
 <a href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/549646707?selectedRLVFilters=_recommended" target="_blank" alt="LIIcon">
